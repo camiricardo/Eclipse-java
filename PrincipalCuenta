@@ -1,0 +1,17 @@
+package modulo;
+
+public class PrincipalCuenta {
+
+	public static void main(String[] args) {		CuentaBancaria c = new CuentaBancaria();
+
+		c.setTitular("camila");
+
+		System.out.println("El titular es: "+c.getTitular());
+
+		c.depositar(1000);
+
+		System.out.println(c.extraer(1100) ? "La extraccion fue realizada de forma exitosa" : "La extraccion no ha sido realizada (No tenes saldo suficiente)");
+
+	}
+
+}
