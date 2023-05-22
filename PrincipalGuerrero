@@ -1,5 +1,6 @@
 package modulo;
 
+
 public class PrincipalGuerrero {
 
 	public static void main(String[] args) {		Guerrero g = new Guerrero();
