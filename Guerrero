@@ -1,5 +1,6 @@
 package modulo;
 
+
 public class Guerrero {
 
 	private String nombre;
