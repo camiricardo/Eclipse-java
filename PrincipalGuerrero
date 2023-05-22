@@ -1,0 +1,21 @@
+package modulo;
+
+public class PrincipalGuerrero {
+
+	public static void main(String[] args) {		Guerrero g = new Guerrero();
+
+		g.setNombre("camila");
+
+		g.setVitalidad(500);
+
+		g.setArmadura(300);
+
+		g.mover(10, 20);
+
+		g.recibeDanio(500);
+
+		System.out.println("Nombre: "+g.getNombre()+", Vitalidad: "+g.getVitalidad()+", Armadura: "+g.getArmadura()+", Posicion X e Y: "+g.getX()+" "+g.getY());
+
+	}
+
+}
