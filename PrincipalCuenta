@@ -1,5 +1,6 @@
 package modulo;
 
+
 public class PrincipalCuenta {
 
 	public static void main(String[] args) {		CuentaBancaria c = new CuentaBancaria();
