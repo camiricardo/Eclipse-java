@@ -1,6 +1,6 @@
 package modulo;
 
-public class TestPersona {
+public class PrincipalPersona {
 
 	public static void main(String[] args) {		Persona p = new Persona();
 
@@ -12,7 +12,7 @@ public class TestPersona {
 
 		System.out.println("Nombre: "+p.getNombre()+", Edad: "+p.getEdad());
 
-		System.out.println(p.sosMayor() ? "Sos Mayor" : "Sos Menor");
+		System.out.println(p.sosMayor() ? "Mayor" : "Menor");
 
 		System.out.println(p.repeticionesDeLetra('a'));
 
