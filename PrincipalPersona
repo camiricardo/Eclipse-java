@@ -1,0 +1,21 @@
+package modulo;
+
+public class TestPersona {
+
+	public static void main(String[] args) {		Persona p = new Persona();
+
+		p.setNombre("camila");
+
+		p.setEdad(17);
+
+		p.setEmail("cami.ricardo06@gmail.com");
+
+		System.out.println("Nombre: "+p.getNombre()+", Edad: "+p.getEdad());
+
+		System.out.println(p.sosMayor() ? "Sos Mayor" : "Sos Menor");
+
+		System.out.println(p.repeticionesDeLetra('a'));
+
+	}
+
+}
